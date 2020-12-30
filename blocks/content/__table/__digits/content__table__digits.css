@@ -1,0 +1,11 @@
+@import url(./_text/content__table__digits_text.css);
+
+.content__table__digits {
+    display: flex;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 0;
+}

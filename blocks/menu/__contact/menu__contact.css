@@ -1,0 +1,11 @@
+@import url(./_city/menu__contact_city.css);
+@import url(./_number/menu__contact_number.css);
+
+.menu__contact {
+    width: 128px;
+    height: 50px;
+}
+
+.menu__contact:last-of-type {
+    margin-left: 32px;
+}

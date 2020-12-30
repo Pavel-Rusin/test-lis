@@ -1,0 +1,6 @@
+@import url(./__text/content__title__text.css);
+
+.content__title {
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+}

@@ -1,0 +1,17 @@
+@import url(./__title/popup__title.css);
+@import url(./__line/popup__line.css);
+@import url(./__text/popup__text.css);
+
+.popup {
+    width: 357px;
+    height: 165px;
+    background-color: #F9F8FA;
+    display: none;
+    flex-direction: column;
+    margin: auto auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

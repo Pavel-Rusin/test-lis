@@ -1,0 +1,12 @@
+@import url(./__digits/content__table__digits.css);
+@import url(./__plus/content__table__plus.css);
+@import url(./__text/content__table__text.css);
+@import url(./__block/content__table__block.css);
+
+.content__table {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 432px;
+    table-layout: auto;
+    border-spacing: 27px 40px;
+}

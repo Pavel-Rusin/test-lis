@@ -1,0 +1,4 @@
+.form__call {
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+}

@@ -1,0 +1,25 @@
+@import url(./__imput/form__checkbox__imput.css);
+@import url(./__checkmark/form__checkbox__checkmark.css);
+
+.form__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form__checkbox input:checked ~ .form__checkbox__checkmark:after {
+    display: block;
+}
+
+.form__checkbox .form__checkbox__checkmark:after {
+    width: 16px;
+    height: 16px;
+    background: url(./../../../images/checkbox_clicked.svg) no-repeat;
+}

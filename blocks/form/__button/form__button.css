@@ -1,0 +1,10 @@
+.form__button {
+    width: 36px;
+    height: 23px; 
+    border: none;
+    position: relative;
+    background: url(../../../../images/flag.svg) no-repeat center center;
+    background-color: #F9F8FA;
+    margin: 0 0 0 -331px;
+    top: -9px
+}

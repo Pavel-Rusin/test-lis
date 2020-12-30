@@ -1,0 +1,11 @@
+.page {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Proxima Nova', 'Ubuntu';
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+/* .page .header {
+    background: #6D6D6D;
+} */

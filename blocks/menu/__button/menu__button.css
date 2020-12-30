@@ -1,0 +1,14 @@
+.menu__button {
+    border: 1px solid #FFFFFF;
+    width: 199px;
+    height: 49px;
+    background: #6D6D6D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

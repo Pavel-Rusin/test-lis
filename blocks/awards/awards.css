@@ -1,0 +1,8 @@
+@import url(./__button/awards__button.css);
+@import url(./__logo/awards__logo.css);
+
+.awards {
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+}

@@ -1,0 +1,8 @@
+.footer__box {
+    padding: 97px 193px 108px;
+    width: 1534px;
+    height: 412px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

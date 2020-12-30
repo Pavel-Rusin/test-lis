@@ -1,0 +1,14 @@
+.footer__form__submit {
+    width: 229px;
+    height: 46.52px;
+    background-color: #F04C23;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+}

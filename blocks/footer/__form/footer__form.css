@@ -1,0 +1,18 @@
+@import url(./__call/footer__form__call.css);
+@import url(./__call-text/footer__form__call-text.css);
+@import url(./__container/footer__form__container.css);
+@import url(./__paragraph/footer__form__paragraph.css);
+@import url(./__input/footer__form__input.css);
+@import url(./__box/footer__form__box.css);
+@import url(./__text/footer__form__text.css);
+@import url(./__link/footer__form__link.css);
+@import url(./__checkbox/footer__form__checkbox.css);
+@import url(./__number/footer__form__number.css);
+@import url(./__button/footer__form__button.css);
+@import url(./__submit/footer__form__submit.css);
+
+.footer__form {
+    display: flex;
+    width: 691px;
+    height: 378px;
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('proxima_nova_regular.woff2') format('woff2'),
+         url('proxima_nova_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style:  bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url('proxima_nova_bold.woff2') format('woff2'),
+         url('proxima_nova_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    src: url('ubuntumedium.woff2') format('woff2'),
+         url('ubuntumedium.woff') format('woff');
+}

@@ -1,0 +1,14 @@
+@import url(./__section/lead__section.css);
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__slide/lead__slide.css);
+@import url(./__slider/lead__slider.css);
+@import url(./__slider/lead__slider.css);
+@import url(./__numbers/lead__numbers.css);
+
+.lead {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 185px auto 140px;
+}

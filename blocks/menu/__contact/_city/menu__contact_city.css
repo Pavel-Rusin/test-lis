@@ -1,0 +1,10 @@
+.menu__contact_city{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #F04C23;
+    margin: 4px 0 5px;
+    letter-spacing: 0.02em;
+}

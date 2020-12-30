@@ -1,0 +1,7 @@
+.menu__link-item {
+    margin-right: 38px;
+}
+
+.menu__link-item:last-of-type {
+    margin-right: 0px;
+}

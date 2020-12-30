@@ -1,0 +1,9 @@
+@import url(./__title/footer__block__title.css);
+@import url(./__subtitle/footer__block__subtitle.css);
+@import url(./__text/footer__block__text.css);
+
+.footer__block {
+    width: 618px;
+    height: 421px;
+    position: relative;
+}

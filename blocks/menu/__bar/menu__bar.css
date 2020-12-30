@@ -1,0 +1,5 @@
+.menu__bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}

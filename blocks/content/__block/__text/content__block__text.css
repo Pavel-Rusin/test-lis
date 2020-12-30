@@ -1,0 +1,10 @@
+.content__block__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF; 
+    padding: 60px 91px 32px 85px;
+    margin: 0;
+}

@@ -1,0 +1,8 @@
+.content__box {
+    padding: 107px 193px;
+    width: 1534px;
+    height: 412px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

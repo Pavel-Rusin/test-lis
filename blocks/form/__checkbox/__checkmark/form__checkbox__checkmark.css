@@ -1,0 +1,14 @@
+.form__checkbox__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background: url(./../../../../images/checkbox.svg) no-repeat;
+}
+
+.form__checkbox__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}

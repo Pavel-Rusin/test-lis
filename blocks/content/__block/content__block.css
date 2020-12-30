@@ -1,0 +1,10 @@
+@import url(./__bottom/content__block__bottom.css);
+@import url(./__text/content__block__text.css);
+@import url(./__link/content__block__link.css);
+@import url(./__arrow/content__block__arrow.css);
+
+.content__block {
+    width: 614px;
+    height: 412px;
+    background: #F04C23;
+}

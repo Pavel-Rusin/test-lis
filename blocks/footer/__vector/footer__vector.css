@@ -1,0 +1,12 @@
+.footer__vector {
+    position: absolute;
+    width: 73px;
+    height: 115px;
+    right: 54px;
+    bottom: -17px;
+    background-image: url(../../../images/vector.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-15deg);
+    z-index: 1;
+}

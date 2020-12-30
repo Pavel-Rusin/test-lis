@@ -1,0 +1,22 @@
+.form__error {
+    position: relative;
+    bottom: 58px;
+    left: 200px;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0px;
+    line-height: 15px;
+    color: #F04C23;
+}
+
+.form__error_checkbox {
+    margin-bottom: 0px;
+    bottom: -20px;
+    margin-bottom: 0px;
+    left: 0;
+}

@@ -1,0 +1,8 @@
+.form__popup {
+    background-color: #fff;
+    display: flex;
+    padding: 43px 46px 56px 16px;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+}
