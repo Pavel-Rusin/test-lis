@@ -133,17 +133,17 @@
           <form name="call" class="form__container" method="get" action="#" novalidate>
             <p class="form__paragraph">После подачи заявки с вами свяжется наш менеджер</p>
             <input type="text" class="form__input form__input__style" placeholder="Имя" name="form__fullname" id="fullname-input" minlength="2" maxlength="40">
-            <span class="form__error" id="fullname-input-error">Имя должно</span>
+            <span class="form__error" id="fullname-input-error"></span>
             <input type="tel" class="form__input form__input__style" placeholder="+7" autocomplete="off" name="form__nubmber" id="number-input" minlength="12" maxlength="12" required>
             <span class="form__error" id="number-input-error"></span>
             <input type="email" class="form__input form__input__style" placeholder="Почта" name="form__email" id="email-input" minlength="5" maxlength="40">
             <span class="form__error" id="email-input-error"></span>
             <div class="form__box">
               <label class="form__checkbox"><input class="form__input form__checkbox__input" type="checkbox" name="checkbox" id="checkbox-input" required><span class="form__checkbox__checkmark"></span></label>
-              <span class="form__error form__error_checkbox" id="checkbox-input-error"></span>
               <p class="form__text">Соглашаюсь на <a href="#" class="form__link">обработку персональных данных</a></p>
+              <span class="form__error form__error_checkbox" id="checkbox-input-error"></span>
             </div>
-            <button class="form__submit" type="submit">Отправить<img src="./images/arrow.svg" alt="Стрелка" class="content__block__arrow"></button>
+            <button class="form__submit form__submit__style" type="submit">Отправить<img src="./images/arrow.svg" alt="Стрелка" class="content__block__arrow"></button>
           </form>
         </div>
         <div class="popup">

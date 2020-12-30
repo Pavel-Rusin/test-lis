@@ -10,7 +10,7 @@ const enableValidation = ({formSelector, ...rest}) => {
      
   function setEventListeners({formElement, inputSelector, submitButtonSelector, ...rest}) { 
     const inputList = Array.from(formElement.querySelectorAll(inputSelector)); 
-    const buttonElement = formElement.querySelector(submitButtonSelector); 
+    const buttonElement = formElement.querySelector(submitButtonSelector);
     actualizeButton({inputList, buttonElement, ...rest}); 
     inputList.forEach((inputElement) => { 
       inputElement.addEventListener("input", function () { 
@@ -47,18 +47,26 @@ const enableValidation = ({formSelector, ...rest}) => {
      
   const checkInputValidity = ({formElement, inputElement, ...rest}) => { 
     if (!inputElement.validity.valid) { 
-      showInputError({formElement, inputElement, ...rest}); 
+      showNumberInputError({formElement, inputElement, ...rest});
+      showCheckboxInputError({formElement, inputElement, ...rest}); 
     } else { 
       hideInputError({formElement, inputElement, ...rest}); 
     } 
   }; 
      
-  const showInputError = ({formElement, inputElement, errorClass, inputErrorClass, ...rest}) => { 
-    const errorElement = formElement.querySelector(`#${inputElement.id}-error`); 
+  const showNumberInputError = ({formElement, inputElement, errorClass, inputErrorClass, ...rest}) => { 
+    const errorElement = formElement.querySelector(`#number-input-error`); 
     inputElement.classList.add(inputErrorClass); 
     errorElement.classList.add(errorClass); 
-    errorElement.textContent = inputElement.validationMessage; 
-  }; 
+    errorElement.textContent = "! Не правильный формат телефона"; 
+  };
+
+  const showCheckboxInputError = ({formElement, inputElement, errorClass, inputErrorClass, ...rest}) => { 
+    const errorElement = formElement.querySelector(`#checkbox-input-error`); 
+    inputElement.classList.add(inputErrorClass); 
+    errorElement.classList.add(errorClass); 
+    errorElement.textContent = "! Подтвердите согласие на обработку персональных данных"; 
+  };
      
   function hideInputError({formElement, inputElement, errorClass, inputErrorClass, ...rest}) { 
     const errorElement = formElement.querySelector(`#${inputElement.id}-error`); 

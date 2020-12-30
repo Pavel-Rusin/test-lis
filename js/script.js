@@ -29,7 +29,7 @@ function saveCall(event) {
 const popupToggle = function () {
     popupForm.classList.toggle('form_opened')
 }
-// var popup = document.querySelector('.popup');
+
 document.addEventListener('mousedown', function(e){
     if(e.target.closest('.popup') === null){
         popupClose(popupCall)
@@ -38,31 +38,13 @@ document.addEventListener('mousedown', function(e){
 
 //открытие и закрытие попапа.
 function popupOpen (popupCall) { 
-    popupCall.classList.add('form_opened'); 
-    // document.addEventListener('keyup', exitEscKey); 
+    popupCall.classList.add('form_opened');  
 } 
  
 function popupClose (popupCall) { 
-    popupCall.classList.remove('form_opened'); 
-    // document.removeEventListener('keyup', exitEscKey); 
+    popupCall.classList.remove('form_opened');  
 } 
 
-
-// const popupCallToggle = function () {
-//     popupCall.classList.toggle('form_opened')
-// }
-
-// editButton.addEventListener(`click`, () => {
-// 	popup.classList.remove(`active`);
-// 	form.classList.remove(`hide`);
-// 	popupContainer.classList.add(`active`);
-// });
-
-// popupContainer.addEventListener(`click`, (e) => {
-// 	if (e.target.classList.contains(`popup__close`) || e.target.classList.contains(`popup-container`)) {
-// 		popupContainer.classList.remove(`active`);
-// 	};
-// });
 
 
 
